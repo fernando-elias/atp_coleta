@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pontosColeta"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <LinearLayout
+        android:layout_width="416dp"
+        android:layout_height="678dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16px">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="50px"
+            android:text="Selecione o Bairro:"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/spinner_bairro"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16dp"
+            android:entries="@array/lista_bairros"
+            android:padding="15px" />
+
+        <Button
+            android:id="@+id/button_show_pontos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mostrar Pontos" />
+
+        <TextView
+            android:id="@+id/textView_pontos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72px"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_endereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36px"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_horarios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36px"
+            android:gravity="center"
+            android:textSize="18sp" />
+    </LinearLayout>
+</RelativeLayout>

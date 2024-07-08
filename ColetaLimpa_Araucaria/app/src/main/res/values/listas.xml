@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lista_dias">
+        <item>Segunda-feira</item>
+        <item>Terça-feira</item>
+        <item>Quarta-feira</item>
+        <item>Quinta-feira</item>
+        <item>Sexta-feira</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+    </string-array>
+
+    <string-array name="lista_bairros">
+        <item>Centro</item>
+        <item>Iguaçu</item>
+        <item>Fazenda Velha</item>
+        <item>Campina da Barra</item>
+        <item>Portão</item>
+        <item>Barigui</item>
+        <item>Porto das Laranjeiras</item>
+        <item>Boqueirão</item>
+        <item>Santa Quitéria</item>
+        <item>Capela Velha</item>
+        <item>Chapada</item>
+        <item>Rebouças</item>
+        <item>Vila Nova</item>
+        <item>Estação</item>
+        <item>Costeira</item>
+        <item>Cachoeira</item>
+        <item>Passaúna</item>
+        <item>CIC</item>
+        <item>Thomaz Coelho</item>
+        <item>Hauer</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ColetaLimpa_Araucaria</string>
+    <string name="cadastrobutton">Cadastro</string>
+    <string name="pontos_de_coletabutton">Pontos de Coleta</string>
+    <string name="hor_rios_coletabutton">Horários Coleta</string>
+    <string name="bem_vindo">Bem Vindo</string>
+    <string name="nomeEditText">Nome</string>
+    <string name="nome">Nome</string>
+    <string name="adicionar_cadastro">Adicionar Cadastro</string>
+    <string name="telefoneEditText">Telefone</string>
+    <string name="atencao">Atenção</string>
+    <string name="cadastro_vazio_msg_alert">Os dados não serão salvos. Deseja retornar?</string>
+    <string name="salvar">Salvar</string>
+    <string name="remover_cadastro">Cadastro Removido</string>
+    <string name="desfazer">Desfazer</string>
+</resources>
